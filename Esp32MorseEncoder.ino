@@ -35,7 +35,7 @@ void loop() {
   }
 }
 
-void morseCode(char* pattern) {
+void morseCode(const char* pattern) {
   for (int i = 0; pattern[i] != '\0'; i++) {
     if (pattern[i] == '.') {
       dot();
